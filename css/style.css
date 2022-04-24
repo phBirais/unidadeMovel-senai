@@ -3,6 +3,7 @@ body {
   line-height: 1.4;
   font-family: "Titillium Web", sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-color: #1F2532;
 }
 
 p {
@@ -14,6 +15,39 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
+}
+
+@media(max-width: 2800px) {
+
+  .title {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  
+  .title h2 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+
+h4{
+  font-size: 2.5rem;
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+p{
+  font-size: 22px;
+}
+
+.section {
+  padding: 30px 0;
 }
 
 .fixedBackground{
@@ -31,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .mainTitle{
   position: absolute;
-  font-size: 150px;
+  font-size: 350px;
   color: white;
   top: 20%;
   left: 50%;
@@ -39,7 +73,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 .options{
   align-content: center;
+  width: auto;
+  height: auto;
   top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.options2{
+  align-content: center;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -49,38 +92,49 @@ h1, h2, h3, h4, h5, h6 {
   padding: 75px 0 65px 0;
   height: 200px;
   width: 250px;
+  font-size: 25px;
   text-align: center;
-  background: #fff;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0px 3px 9px rgb(0 0 0 / 5%);  
   background-color: #f0326b;
+  opacity: 0.7;
 }
 .col-md-6{
   width: 50%;
   text-align: -webkit-center;
+  align-content: center;
+  float: none;
+  margin: 0 auto;
 }
+
+}
+
 @media (max-width: 1201px){
+
+  p{
+    font-size: 30px;
+  }
+  h2{
+    padding-top: 20px;
+  }
+  .navigation .navbar-nav > li > a {
+    font-size: 25px;
+  }
+
   .fixedBackground{
-    position: relative;
-    text-align: center;
-    color: white;
-  
-    /* Full height */
-    width: 250%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: black;
+    height: 100%;
   }
   .mainTitle{
     position: absolute;
     font-size: 200px;
     top: 30%;
-    left: 20%;
+    left: 50%;
     transform: translate(-50%, -50%);
+  }
+  .title {
+    padding-bottom: 50px;
+    text-align: center;
+
   }
   .options{
     align-content: center;
@@ -89,70 +143,36 @@ h1, h2, h3, h4, h5, h6 {
     transform: translate(-50%, -50%);
     position: absolute;
   }
-  .optionsButton {
+  .optionsButton{
     margin-top: 30px;    
-    padding: 32px 0 0 0;
-    height: 100px;
-    width: 200px;
+    padding: 70px 0 0 0;
+    height: 200px;
+    width: 300px;
     text-align: center;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 3px 9px rgb(0 0 0 / 5%);
-    background-color: #f0326b;
+    border-radius: 10px;
+  }
+  .h4, h4{
+    color: white;
+  }
+  .buttonText{
+    color: white;
   }
   .container {
     width: 800px;
   }
   .col-md-6{
-    width: 50%;
+    width: 70%;
     text-align: -webkit-center;
     align-content: center;
+    float: none;
+    margin: 0 auto;
+  }
+  .acting{
+    margin-top: 35%;
   }
   .row{
     align-content: center;
     text-align: center;
-  }
-}
-
-@media (max-width: 600px){
-  .mainTitle{
-    position: absolute;
-    font-size: 40px;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .options{
-    align-content: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-  }
-  .optionsButton {
-    margin-top: 30px;    
-    padding: 18px 0 15px 0;
-    height: 50px;
-    width: 100px;
-    text-align: center;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 3px 9px rgb(0 0 0 / 5%);
-    background-color: #f0326b;
-  }
-  .h4, h4{
-    font-size: 0.8rem;
-  }
-  .container {
-    width: 500px;
-  }
-  .col-md-6{
-    width: 50%;
-    text-align: -webkit-center;
-    align-content: center;
-  }
-  .row{
-    align-content: center;
   }
 }
 
@@ -467,8 +487,8 @@ a:focus, a:hover {
 }
 
 .title h2 {
-  font-size: 35px;
-  color: #232323;
+  font-size: 3.5rem;
+  color: #ffffff;
   text-transform: capitalize;
   margin-bottom: 8px;
   margin-top: 10px;
@@ -505,9 +525,9 @@ a:focus, a:hover {
   border: none;
   display: inline-block;
   border-radius: 3px;
-  height: 6px;
+  height: 8px;
   position: relative;
-  width: 90px;
+  width: 180px;
   margin-bottom: 10px;
 }
 
