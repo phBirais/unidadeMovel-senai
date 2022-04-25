@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 @media(max-width: 2800px) {
 
   .title {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     text-align: center;
   }
   
@@ -96,8 +96,8 @@ p{
   text-align: center;
   border-radius: 15px;
   box-shadow: 0px 3px 9px rgb(0 0 0 / 5%);  
-  background-color: #f0326b;
-  opacity: 0.7;
+  background-color: #ff0000;
+  opacity: 0.6;
 }
 .col-md-6{
   width: 50%;
@@ -135,7 +135,7 @@ p{
     transform: translate(-50%, -50%);
   }
   .title {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     text-align: center;
 
   }
@@ -223,12 +223,12 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-  color: #f0326b;
+  color: #ff0000;
 }
 
 .btn-main, .btn-main-sm {
   background-color: #21D6BF;
-  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+  background-image: linear-gradient(100deg, #f9643d, #ff0000);
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -324,7 +324,7 @@ a:focus, a:hover {
 }
 
 #preloader {
-  background: #f0326b;
+  background: #ff0000;
   height: 100%;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -496,7 +496,7 @@ a:focus, a:hover {
 }
 
 .title {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -558,7 +558,7 @@ a:focus, a:hover {
 }
 
 .gradient, .title .border, .service-2 .service-item i {
-  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+  background-image: linear-gradient(100deg, #f9643d, #ff0000);
 }
 
 .header-bradcrumb {
@@ -585,8 +585,7 @@ a:focus, a:hover {
 }
 
 .commonTab .nav-tabs .nav-item {
-  margin: 0 5px;
-  width: 25%;
+  margin: 5px 5px;
 }
 
 .commonTab .nav-tabs .nav-item .nav-link {
@@ -594,24 +593,24 @@ a:focus, a:hover {
   color: #666;
   text-transform: capitalize;
   border-radius: 10px;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .commonTab .nav-tabs .nav-item .nav-link.active {
-  border: 1px solid #f0326b;
-  background: #f0326b;
+  border: 1px solid #ff0000;
+  background: #ff0000;
   color: #fff;
   border-radius: 10px;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .commonTab .nav-tabs .nav-item .nav-link:hover {
-  border: 1px solid #f0326b;
+  border: 1px solid #ff0000;
   border-radius: 0;
-  background: #f0326b;
+  background: #ff0000;
   color: #fff;
   border-radius: 10px;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .commonTab .tab-content {
@@ -961,8 +960,8 @@ a:focus, a:hover {
   width: 12%;
   height: 3px;
   background-color: #ffa535;
-  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
-  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+  background-image: linear-gradient(100deg, #f9643d, #ff0000);
+  background-image: linear-gradient(100deg, #f9643d, #ff0000);
 }
 
 @media (max-width: 768px) {
