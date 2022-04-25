@@ -91,7 +91,7 @@ p{
   margin-top: 30px;
   padding: 75px 0 65px 0;
   height: 200px;
-  width: 250px;
+  width: 290px;
   font-size: 25px;
   text-align: center;
   border-radius: 15px;
@@ -106,7 +106,10 @@ p{
   float: none;
   margin: 0 auto;
 }
-
+.youtubevideo{
+  width: 500px;
+  height: 300px;
+}
 }
 
 @media (max-width: 1201px){
@@ -165,6 +168,7 @@ p{
     text-align: -webkit-center;
     align-content: center;
     float: none;
+    padding: 20px;
     margin: 0 auto;
   }
   .acting{
@@ -174,8 +178,18 @@ p{
     align-content: center;
     text-align: center;
   }
+  .youtubevideo{
+    width: 650px;
+    height: 450px;
+  }
 }
 
+@media(min-width: 768px){
+  .col-md-6{
+  flex:auto;
+  max-width: fit-content;
+  }
+}
 /*=== MEDIA QUERY ===*/
 .no-padding {
   padding: 0 !important;
@@ -571,20 +585,24 @@ a:focus, a:hover {
 }
 
 .commonTab .nav-tabs .nav-item {
-  margin: 0 3px;
+  margin: 0 5px;
+  width: 25%;
 }
 
 .commonTab .nav-tabs .nav-item .nav-link {
   background: #f9f9f9;
   color: #666;
   text-transform: capitalize;
-  border-radius: 0;
+  border-radius: 10px;
+  font-size: xx-large;
 }
 
 .commonTab .nav-tabs .nav-item .nav-link.active {
   border: 1px solid #f0326b;
   background: #f0326b;
   color: #fff;
+  border-radius: 10px;
+  font-size: xx-large;
 }
 
 .commonTab .nav-tabs .nav-item .nav-link:hover {
@@ -592,6 +610,8 @@ a:focus, a:hover {
   border-radius: 0;
   background: #f0326b;
   color: #fff;
+  border-radius: 10px;
+  font-size: xx-large;
 }
 
 .commonTab .tab-content {
