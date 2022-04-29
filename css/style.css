@@ -19,6 +19,28 @@ h1, h2, h3, h4, h5, h6 {
 
 @media(max-width: 2800px) {
 
+  .left-arrow{
+    position: absolute;
+    top: 0%;
+    left: -35%;    
+    z-index: 1;
+  }
+  .left-arrow-cases{
+    position: absolute;
+    top: 17%;
+    left: 5%;    
+    z-index: 1;
+  }  
+  .left-arrow-options{
+    position: absolute;
+    top: 4%;
+    left: -20%;
+    z-index: 1;
+  }
+  .left-arrow-image{
+    width: 75px;
+    opacity: 0.05;
+  }
   .title {
     padding-bottom: 20px;
     text-align: center;
@@ -123,7 +145,24 @@ p{
   .navigation .navbar-nav > li > a {
     font-size: 25px;
   }
-
+  .left-arrow{
+    position: absolute;
+    top: 28%;
+    left: 0%;
+    z-index: 1;
+  }
+  .left-arrow-options{
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    z-index: 1;
+  }
+  .left-arrow-cases{
+    position: absolute;
+    top: 12%;
+    left: 3%;
+    z-index: 1;
+  }
   .fixedBackground{
     height: 100%;
   }
